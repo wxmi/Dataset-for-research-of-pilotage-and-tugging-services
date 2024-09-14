@@ -1,0 +1,23 @@
+The instances are named as x1|x2|x3|x4, and the information related is shown as follows.
+
+Number of resources are listed in the first 6 lines.
+
+Service time.
+
+Vessel info (berthing):
+Vessel ID, Arrival time, Number of waypoint,  low bound of time window, upper bound of time window, Type of movement, Required tugboat number, Required type of pilots, Required type of tugboats, coordinate_x, coordinate_y, delay cost
+
+Vessel info (unberthing):
+Vessel ID, Arrival time, Number of waypoint,  low bound of time window, upper bound of time window, Type of movement, Required tugboat number, Required type of pilots, Required type of tugboats, coordinate_x, coordinate_y, delay cost
+ 
+Pilot boat info:
+Boat ID, Type of boat, trasportation rate, fixed cost,  low bound of time window, upper bound of time window, coordinate_x, coordinate_y
+
+Pilot info:
+ID, type, fixed cost, low bound of time window, upper bound of time window, coordinate_x, coordinate_y
+
+Tugboat type info:
+ID, type, unit traveling cost, fixed cost
+
+Tugboat detailed info:
+ID, type, unit traveling cost, fixed cost, low bound of time window, upper bound of time window, coordinate_x, coordinate_y
